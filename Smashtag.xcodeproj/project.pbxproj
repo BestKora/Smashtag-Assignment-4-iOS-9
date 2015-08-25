@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E442EB2B1B8C7DB800A3784C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442EB2A1B8C7DB800A3784C /* AppDelegate.swift */; };
+		E442EB2D1B8C7DB800A3784C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442EB2C1B8C7DB800A3784C /* ViewController.swift */; };
+		E442EB301B8C7DB800A3784C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E442EB2E1B8C7DB800A3784C /* Main.storyboard */; };
+		E442EB321B8C7DB800A3784C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E442EB311B8C7DB800A3784C /* Assets.xcassets */; };
+		E442EB351B8C7DB800A3784C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E442EB331B8C7DB800A3784C /* LaunchScreen.storyboard */; };
+		E442EB401B8C7DB800A3784C /* SmashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442EB3F1B8C7DB800A3784C /* SmashtagTests.swift */; };
+		E442EB4B1B8C7DB800A3784C /* SmashtagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442EB4A1B8C7DB800A3784C /* SmashtagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E442EB3C1B8C7DB800A3784C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E442EB1F1B8C7DB800A3784C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E442EB261B8C7DB800A3784C;
+			remoteInfo = Smashtag;
+		};
+		E442EB471B8C7DB800A3784C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E442EB1F1B8C7DB800A3784C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E442EB261B8C7DB800A3784C;
+			remoteInfo = Smashtag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E442EB271B8C7DB800A3784C /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442EB2A1B8C7DB800A3784C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E442EB2C1B8C7DB800A3784C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E442EB2F1B8C7DB800A3784C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E442EB311B8C7DB800A3784C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E442EB341B8C7DB800A3784C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E442EB361B8C7DB800A3784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E442EB3B1B8C7DB800A3784C /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442EB3F1B8C7DB800A3784C /* SmashtagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagTests.swift; sourceTree = "<group>"; };
+		E442EB411B8C7DB800A3784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E442EB461B8C7DB800A3784C /* SmashtagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442EB4A1B8C7DB800A3784C /* SmashtagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagUITests.swift; sourceTree = "<group>"; };
+		E442EB4C1B8C7DB800A3784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E442EB241B8C7DB800A3784C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB381B8C7DB800A3784C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB431B8C7DB800A3784C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E442EB1E1B8C7DB800A3784C = {
+			isa = PBXGroup;
+			children = (
+				E442EB291B8C7DB800A3784C /* Smashtag */,
+				E442EB3E1B8C7DB800A3784C /* SmashtagTests */,
+				E442EB491B8C7DB800A3784C /* SmashtagUITests */,
+				E442EB281B8C7DB800A3784C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E442EB281B8C7DB800A3784C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E442EB271B8C7DB800A3784C /* Smashtag.app */,
+				E442EB3B1B8C7DB800A3784C /* SmashtagTests.xctest */,
+				E442EB461B8C7DB800A3784C /* SmashtagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E442EB291B8C7DB800A3784C /* Smashtag */ = {
+			isa = PBXGroup;
+			children = (
+				E442EB2A1B8C7DB800A3784C /* AppDelegate.swift */,
+				E442EB2C1B8C7DB800A3784C /* ViewController.swift */,
+				E442EB2E1B8C7DB800A3784C /* Main.storyboard */,
+				E442EB311B8C7DB800A3784C /* Assets.xcassets */,
+				E442EB331B8C7DB800A3784C /* LaunchScreen.storyboard */,
+				E442EB361B8C7DB800A3784C /* Info.plist */,
+			);
+			path = Smashtag;
+			sourceTree = "<group>";
+		};
+		E442EB3E1B8C7DB800A3784C /* SmashtagTests */ = {
+			isa = PBXGroup;
+			children = (
+				E442EB3F1B8C7DB800A3784C /* SmashtagTests.swift */,
+				E442EB411B8C7DB800A3784C /* Info.plist */,
+			);
+			path = SmashtagTests;
+			sourceTree = "<group>";
+		};
+		E442EB491B8C7DB800A3784C /* SmashtagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E442EB4A1B8C7DB800A3784C /* SmashtagUITests.swift */,
+				E442EB4C1B8C7DB800A3784C /* Info.plist */,
+			);
+			path = SmashtagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E442EB261B8C7DB800A3784C /* Smashtag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442EB4F1B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "Smashtag" */;
+			buildPhases = (
+				E442EB231B8C7DB800A3784C /* Sources */,
+				E442EB241B8C7DB800A3784C /* Frameworks */,
+				E442EB251B8C7DB800A3784C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smashtag;
+			productName = Smashtag;
+			productReference = E442EB271B8C7DB800A3784C /* Smashtag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E442EB3A1B8C7DB800A3784C /* SmashtagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442EB521B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "SmashtagTests" */;
+			buildPhases = (
+				E442EB371B8C7DB800A3784C /* Sources */,
+				E442EB381B8C7DB800A3784C /* Frameworks */,
+				E442EB391B8C7DB800A3784C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E442EB3D1B8C7DB800A3784C /* PBXTargetDependency */,
+			);
+			name = SmashtagTests;
+			productName = SmashtagTests;
+			productReference = E442EB3B1B8C7DB800A3784C /* SmashtagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E442EB451B8C7DB800A3784C /* SmashtagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442EB551B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "SmashtagUITests" */;
+			buildPhases = (
+				E442EB421B8C7DB800A3784C /* Sources */,
+				E442EB431B8C7DB800A3784C /* Frameworks */,
+				E442EB441B8C7DB800A3784C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E442EB481B8C7DB800A3784C /* PBXTargetDependency */,
+			);
+			name = SmashtagUITests;
+			productName = SmashtagUITests;
+			productReference = E442EB461B8C7DB800A3784C /* SmashtagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E442EB1F1B8C7DB800A3784C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tatiana Kornilova";
+				TargetAttributes = {
+					E442EB261B8C7DB800A3784C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E442EB3A1B8C7DB800A3784C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E442EB261B8C7DB800A3784C;
+					};
+					E442EB451B8C7DB800A3784C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E442EB261B8C7DB800A3784C;
+					};
+				};
+			};
+			buildConfigurationList = E442EB221B8C7DB800A3784C /* Build configuration list for PBXProject "Smashtag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E442EB1E1B8C7DB800A3784C;
+			productRefGroup = E442EB281B8C7DB800A3784C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E442EB261B8C7DB800A3784C /* Smashtag */,
+				E442EB3A1B8C7DB800A3784C /* SmashtagTests */,
+				E442EB451B8C7DB800A3784C /* SmashtagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E442EB251B8C7DB800A3784C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442EB351B8C7DB800A3784C /* LaunchScreen.storyboard in Resources */,
+				E442EB321B8C7DB800A3784C /* Assets.xcassets in Resources */,
+				E442EB301B8C7DB800A3784C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB391B8C7DB800A3784C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB441B8C7DB800A3784C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E442EB231B8C7DB800A3784C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442EB2D1B8C7DB800A3784C /* ViewController.swift in Sources */,
+				E442EB2B1B8C7DB800A3784C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB371B8C7DB800A3784C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442EB401B8C7DB800A3784C /* SmashtagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442EB421B8C7DB800A3784C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442EB4B1B8C7DB800A3784C /* SmashtagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E442EB3D1B8C7DB800A3784C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E442EB261B8C7DB800A3784C /* Smashtag */;
+			targetProxy = E442EB3C1B8C7DB800A3784C /* PBXContainerItemProxy */;
+		};
+		E442EB481B8C7DB800A3784C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E442EB261B8C7DB800A3784C /* Smashtag */;
+			targetProxy = E442EB471B8C7DB800A3784C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E442EB2E1B8C7DB800A3784C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E442EB2F1B8C7DB800A3784C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E442EB331B8C7DB800A3784C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E442EB341B8C7DB800A3784C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E442EB4D1B8C7DB800A3784C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E442EB4E1B8C7DB800A3784C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E442EB501B8C7DB800A3784C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E442EB511B8C7DB800A3784C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E442EB531B8C7DB800A3784C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Debug;
+		};
+		E442EB541B8C7DB800A3784C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Release;
+		};
+		E442EB561B8C7DB800A3784C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E442EB571B8C7DB800A3784C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorBrain.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E442EB221B8C7DB800A3784C /* Build configuration list for PBXProject "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442EB4D1B8C7DB800A3784C /* Debug */,
+				E442EB4E1B8C7DB800A3784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E442EB4F1B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442EB501B8C7DB800A3784C /* Debug */,
+				E442EB511B8C7DB800A3784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E442EB521B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "SmashtagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442EB531B8C7DB800A3784C /* Debug */,
+				E442EB541B8C7DB800A3784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E442EB551B8C7DB800A3784C /* Build configuration list for PBXNativeTarget "SmashtagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442EB561B8C7DB800A3784C /* Debug */,
+				E442EB571B8C7DB800A3784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E442EB1F1B8C7DB800A3784C /* Project object */;
+}
